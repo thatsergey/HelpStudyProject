@@ -5,12 +5,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #000;
-
 }
 ul,ol {
 	list-style:none;
 }
-
 a {
 	text-decoration: none;
 }
