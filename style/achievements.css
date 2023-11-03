@@ -1,0 +1,177 @@
+.sidebar-item-active{
+    border-radius: 8px;
+background: #181A90;
+padding: 10px 11px;
+}
+.gray a{
+    color: rgba(0, 0, 0, 0.50);
+}
+.sidebar-item-active span{
+    color: white;
+}
+.main{
+    margin-top: 32px;
+}
+.header-wrapper .header{
+    padding: 22px 132px;
+}
+.header-wrapper{
+    position: relative;
+}
+.header-wrapper::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.10);
+    top: 100%;
+}
+.main-container {
+}
+.main-items {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+
+}
+.main-items__link {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+}
+.main-items__link::after{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.20);
+}
+.active::after{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #181A90;
+}
+.split{
+    background: unset;
+    display: flex;
+    justify-content: space-between;
+}
+.education-statistics-split .education-statistics-time, .education-statistics-split .education-statistics-percent{
+    width: 100%;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px 156px 24px 24px;
+}
+.education-statistics .education-statistics-percent{
+    position: relative;
+}
+.education-statistics .education-statistics-percent{
+    margin-right: 10px;
+}
+.education-statistics .education-statistics-percent::before{
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.10);
+    width: 1px;
+    height: 100%;
+    left: -28px;
+}
+.education-statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    border-radius: 15px;
+background: #FFF;
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+padding: 24px 156px 24px 24px;
+}
+.education-statistics-split{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+    margin-top: 32px;
+}
+.education-statistics-time,.education-statistics-percent {
+display: flex;
+flex-direction: column;
+row-gap: 16px;
+}
+.education-statistics-time__text {
+
+}
+.education-statistics-time__count {
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.education-statistics-percent {
+}
+.education-statistics-percent__text {
+}
+.education-statistics-percent__count {
+text-align: center;
+padding: 10px 15px;
+border-radius: 50px;
+background: #04B100;
+color: #FFF;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 31%;
+}
+.split {
+}
+.section-rait {
+    margin-top: 48px;
+}
+.section-rait-nav {
+    display: flex;
+    justify-content: space-between;
+font-size: 24px;
+margin-bottom: 8px;
+}
+.section-rait-nav__text {
+    font-size: 24px;
+}
+.section-rait-nav-items {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.section-rait-nav-items__link {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 20px;
+    display: inline-flex;
+    padding: 12px 16px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+border: 1px solid #2E31BF;
+}
+.section-rait-nav-items__link-active{
+    color: white;
+    background: #2E31BF;
+}
+.section-rait-photo {
+
+}
+.section-rait-photo__img {
+
+}

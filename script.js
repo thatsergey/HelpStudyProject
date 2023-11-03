@@ -14,3 +14,10 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  const sidebarSection = document.getElementById('categories-container')
+
+  const sidebarCategories = document.getElementById('sideber-categories')
+  sidebarCategories.addEventListener('click', function(){
+    sidebarSection.classList.toggle('cat-hover');
+  })
